@@ -87,7 +87,7 @@ public class UserDao {
         return users;
     }
 
-    public User getUserById(int userId) {
+	public User getUserById(int userId) {
         User user = new User();
         try {
             PreparedStatement preparedStatement = connection.

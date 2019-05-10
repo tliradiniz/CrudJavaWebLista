@@ -14,7 +14,7 @@
 	String password=request.getParameter("password"); 
 		if (login.equals("xseed") && password.equals("estagio")) 
 		{ 
-			response.sendRedirect("Main.jsp");
+			response.sendRedirect("UserController?action=listUser");
 			System.out.println("Deu Certo");
 			} 
 	%> 
