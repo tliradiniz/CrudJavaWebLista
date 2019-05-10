@@ -1,4 +1,4 @@
-package com.daniel.util;
+package util;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -18,7 +18,7 @@ public class DbUtil {
         else {
             try {
                 String driver = "com.mysql.jdbc.Driver";
-                String url = "jdbc:mysql://localhost:3306/UserDB";
+                String url = "jdbc:mysql://localhost:3306/userdb";
                 String user = "thiago";
                 String password = "root";
                 Class.forName(driver);
