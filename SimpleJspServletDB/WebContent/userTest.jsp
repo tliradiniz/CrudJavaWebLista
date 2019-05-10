@@ -35,7 +35,7 @@
                     </div>
                 </div>
                <div class="form-content">
-               <form method="POST" action="UserController">
+               <form method="POST" action="UserController" autocomplete="off">
                     <div class="row">
                     <input type="hidden" readonly="readonly" name="userid" value="<c:out value="${user.userid}" />" /> <br />
                         <div class="col-md-6">                        
@@ -48,7 +48,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" name="expiration" placeholder="Validade *" value="${user.date}" /> <br /> 
+                                <input type="text"class="form-control" name="expiration" placeholder="Validade *" value="${user.date}" /> <br /> 
                             </div>
                             <div class="form-group">
                                 <input type="text" class="form-control" name="credit" placeholder="Crédito *" value="${user.credit}" /> <br /> 
